@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GeoVision Monitor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Mapbox -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
+  <!-- Mapbox Geocoder -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.min.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>GeoVision Monitor</h1>
+  <p>Special Infrastructure & Live Monitoring Mapping System</p>
+</header>
+
+<div id="map"></div>
+
+<div id="side-panel">
+  <h2>Location Intelligence</h2>
+  <div id="details">
+    <p>Search or click a location to view data.</p>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
